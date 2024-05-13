@@ -1,0 +1,30 @@
+{
+    "shapes": [
+        {
+            "line_color": null,
+            "points": [
+                [
+                    468.8493975903615,
+                    370.72891566265065
+                ],
+                [
+                    501.8493975903615,
+                    379.72891566265065
+                ],
+                [
+                    496.8493975903615,
+                    346.72891566265065
+                ]
+            ],
+            "fill_color": null,
+            "label": "0"
+        }
+    ],
+    "imagePath": "C:/Users/langh/Dropbox/MCC-I Masters/Thesis/A6/dataset/images/377644879.json",
+    "fillColor": [
+        255,
+        0,
+        0,
+        128
+    ]
+}
