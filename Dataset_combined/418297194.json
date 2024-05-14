@@ -1,0 +1,30 @@
+{
+    "shapes": [
+        {
+            "line_color": null,
+            "points": [
+                [
+                    425.0,
+                    189.0
+                ],
+                [
+                    419.0,
+                    191.0
+                ],
+                [
+                    429.0,
+                    204.0
+                ]
+            ],
+            "fill_color": null,
+            "label": "0"
+        }
+    ],
+    "imagePath": "418297194.png",
+    "fillColor": [
+        255,
+        0,
+        0,
+        128
+    ]
+}

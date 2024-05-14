@@ -1,0 +1,342 @@
+{
+    "shapes": [
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    20,
+                    60
+                ],
+                [
+                    22,
+                    7
+                ],
+                [
+                    54,
+                    6
+                ],
+                [
+                    55,
+                    59
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    73,
+                    60
+                ],
+                [
+                    72,
+                    3
+                ],
+                [
+                    99,
+                    4
+                ],
+                [
+                    100,
+                    59
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    117,
+                    60
+                ],
+                [
+                    115,
+                    5
+                ],
+                [
+                    140,
+                    4
+                ],
+                [
+                    143,
+                    58
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    160,
+                    59
+                ],
+                [
+                    156,
+                    4
+                ],
+                [
+                    182,
+                    4
+                ],
+                [
+                    185,
+                    58
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    201,
+                    56
+                ],
+                [
+                    199,
+                    3
+                ],
+                [
+                    225,
+                    1
+                ],
+                [
+                    226,
+                    56
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    245,
+                    56
+                ],
+                [
+                    241,
+                    2
+                ],
+                [
+                    266,
+                    1
+                ],
+                [
+                    268,
+                    54
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    286,
+                    54
+                ],
+                [
+                    284,
+                    1
+                ],
+                [
+                    308,
+                    0
+                ],
+                [
+                    311,
+                    54
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    8,
+                    119
+                ],
+                [
+                    5,
+                    174
+                ],
+                [
+                    611,
+                    166
+                ],
+                [
+                    610,
+                    109
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    6,
+                    225
+                ],
+                [
+                    5,
+                    170
+                ],
+                [
+                    612,
+                    162
+                ],
+                [
+                    611,
+                    218
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    27,
+                    288
+                ],
+                [
+                    29,
+                    348
+                ],
+                [
+                    612,
+                    334
+                ],
+                [
+                    612,
+                    278
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    53,
+                    397
+                ],
+                [
+                    53,
+                    342
+                ],
+                [
+                    614,
+                    330
+                ],
+                [
+                    613,
+                    388
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    53,
+                    456
+                ],
+                [
+                    53,
+                    513
+                ],
+                [
+                    614,
+                    503
+                ],
+                [
+                    613,
+                    446
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    6,
+                    566
+                ],
+                [
+                    4,
+                    509
+                ],
+                [
+                    615,
+                    500
+                ],
+                [
+                    614,
+                    554
+                ]
+            ]
+        },
+        {
+            "label": "1",
+            "line_color": null,
+            "fill_color": null,
+            "points": [
+                [
+                    6,
+                    631
+                ],
+                [
+                    8,
+                    677
+                ],
+                [
+                    38,
+                    678
+                ],
+                [
+                    682,
+                    666
+                ],
+                [
+                    681,
+                    618
+                ]
+            ]
+        }
+    ],
+    "lineColor": [
+        0,
+        255,
+        0,
+        128
+    ],
+    "fillColor": [
+        255,
+        0,
+        0,
+        128
+    ]
+}
