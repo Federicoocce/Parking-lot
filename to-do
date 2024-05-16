@@ -1,0 +1,5 @@
+1) fare il resize prima del padding solo delle immagini più grandi di una certa soglia
+2) fare il padding con la grandezza massima scelta
+3) rifare la classe che carica il dataset dove invece di usare i file json con i poligoni
+    si usano le aree con le zone dei parcheggi
+4)  q
