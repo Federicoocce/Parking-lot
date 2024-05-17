@@ -3,3 +3,6 @@
 3)il punto 1 e 2 va fatto anche sulle immagini maschera(sulle immagini normali è già stato fatto)
 4) rifare la classe che carica il dataset dove invece di usare i file json con i poligoni
     si usano le aree con le zone dei parcheggi
+5) possibili architetture: U-net, Deep_labv3+,SegNet,PspNet
+6) pulire il codice spostando il preproccecing fatto nel notebook dei modelli
+7) normalization or histogram equalization--> altri pre metodi
