@@ -5,3 +5,4 @@
     si usano le aree con le zone dei parcheggi
 5) possibili architetture: U-net, Deep_labv3+,SegNet,PspNet
 6) pulire il codice spostando il preproccecing fatto nel notebook dei modelli
+7) normalization or histogram equalization--> altri pre metodi
