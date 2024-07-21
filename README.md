@@ -6,11 +6,13 @@ This repository contains the implementation and datasets for a parking lot segme
 
 - `Architetture.py`: Contains the U-Net model architectures.
 - `dataloader/`: Directory containing JSON files for data loading.
-- `Dataset/`, `Dataset_edge_smaller/`, `Dataset_splittato/`, `image_newmask/`, `resized_masks512/`, `ResizedDataset_even_smaller/`: Directories with datasets and processed images.
+- `intermediate_datasets/`: Directory with datasets and processed images used during the process.
+- `dataset_divided_inclasses/`: Directory with the dataset divided in the 3 quality classes
 - `Preprocessing.ipynb`: Jupyter notebook for data preprocessing steps.
 - `Unet-noPretrain.ipynb`: U-Net model training without pretraining.
 - `Unet-pretrained.ipynb`: U-Net model training with pretraining.
 - `wandb/`: Weights & Biases logs and configurations.
+- `livelli_park.txt`: List of the classes assigned for each image.
 
 
 ### 1. Preprocessing.ipynb
@@ -18,15 +20,24 @@ This repository contains the implementation and datasets for a parking lot segme
 This notebook is responsible for preparing the dataset for training. Key operations include:
 
 - Resizing images to a uniform 512x512 dimension
-- Normalizing pixel values
-- Possible data augmentation (rotation, flipping, etc.)
+- Dividing the images of the dataset in 3 classes
+- Application of data augmentation techniques(rotation, flipping, etc.)
 - Splitting the dataset into training, validation, and test sets
+
+- There are also portions of code that were used in previous attempts that involved padding
 
 ### 2. Unet-noPretrain.ipynb
 
 This notebook contains the code for setting up, training, and evaluating a U-Net model without using pretrained weights. Key components:
 
 - Model: U-Net architecture initialized from scratch
-- Loss Function: nn.BCEWithLogitsLoss()
-- Optimizer: torch.optim.Adam with learning rate 1e-4
+- Loss Function: nn.BCEWithLogitsLoss() combined with dice loss
+- Optimizer: torch.optim.Adam with learning rate 1e-3
+- Training: 50 epochs
+
+### 3. Unet-pretrain.ipynb
+This notebook contains the code for setting up, training, and evaluating a pre-trained U-Net model. Key components:
+- Model: U-Net architecture with pre-trained weights
+- Loss Function: nn.BCEWithLogitsLoss() combined with dice loss
+- Optimizer: torch.optim.Adam with learning rate 1e-3
 - Training: 30 epochs
