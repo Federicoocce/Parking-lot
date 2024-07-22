@@ -42,7 +42,7 @@ This notebook contains the code for setting up, training, and evaluating a pre-t
 - Optimizer: torch.optim.Adam with learning rate 1e-3
 - Training: 30 epochs
 ## How to run the code
-Augmented dataset are splitted in 6 folder: train_images val_images and test_images(input images), for the masks train_mask, test_mask val_mask (truth labels).
+Augmented dataset are splitted in 6 folder: train_images2 val_images and test_images(input images), for the masks train_mask, test_mask val_mask (truth labels).
 Code was mostly run on kaggle so the folders path must be changed.
 After the folder path changes is sufficient to run the Unet-nopretrain notebook to run the training and testing of the custom Unet or Unet-pretrainet for the pretrained counterpart.
 ## Authors
