@@ -41,3 +41,9 @@ This notebook contains the code for setting up, training, and evaluating a pre-t
 - Loss Function: nn.BCEWithLogitsLoss() combined with dice loss
 - Optimizer: torch.optim.Adam with learning rate 1e-3
 - Training: 30 epochs
+## How to run the code
+Augmented dataset are splitted in 6 folder: train_images Test_images and test_images for the input, same folder pattern for the output masks folders.
+Code was mostly run on kaggle so the folders path must be changed.
+After the folder path changes is sufficient to run the Unet-nopretrain notebook to run the training and testing of the custom Unet or Unet-pretrainet for the pretrained counterpart.
+## Authors
+Barbieri Lorenzo, Occelli Federico
